@@ -68,3 +68,17 @@ h1 {
     font-size: 10px;
   }
 }
+@media only screen and (max-width: 46.1875em) {
+  h1 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 9px;
+  }
+  .time h2 {
+    font-size: 12px;
+  }
+  .time small {
+    font-size: 10px;
+  }
+}
