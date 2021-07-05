@@ -3,8 +3,8 @@ var days = document.getElementById("days");
  var minutes = document.getElementById("minutes");
  var seconds = document.getElementById("seconds");
  
- 
- const newDate = new Date("June 28 2021 00:00:00");
+ var currentYear = new Date().getFullYear();
+ const newDate = new Date(`Jan 28 ${currentYear + 1} 00:00:00`);
 
 
  //update countdown
