@@ -4,7 +4,7 @@ var days = document.getElementById("days");
  var seconds = document.getElementById("seconds");
  
  var currentYear = new Date().getFullYear();
- const newDate = new Date(`Jan 28 ${currentYear + 1} 00:00:00`);
+ const newDate = new Date(`Oct 19 ${currentYear} 06:00:00`);
 
 
  //update countdown
